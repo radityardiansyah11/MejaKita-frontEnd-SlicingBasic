@@ -1,0 +1,246 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+}
+
+/* NAV1 */
+
+.nav1 .logo img {
+    width: 35px;
+}
+
+.nav1 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 45px;
+    justify-content: space-between;
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin-left: 0px;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav1 ul li a.warna-merah {
+    color: #ff3838;
+}
+
+.nav1 .icon ul {
+    padding-left: 43rem;
+}
+
+.nav1 .icon img {
+    width: 25px;
+    margin-right: 0;
+}
+
+.judul {
+    text-align: center;
+    padding-top: 10px;
+    flex: 1;
+}
+
+/* NAV2 */
+
+.nav2 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.judul {
+    flex: 1;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* NAV3 */
+
+.nav3 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.nav3 .cari img {
+    width: 22px;
+}
+
+.cari {
+    list-style: none;
+}
+
+.cari li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.vl {
+    border-left: 1px solid rgb(167, 167, 167);
+    height: 30px;
+    position: absolute;
+    left: 87px;
+    margin-left: -3px;
+    top: 217px;
+}
+
+.nav3 .pilihan2 ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 365px;
+}
+
+.nav3 .pilihan2 ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.hl {
+    border-top: 3px solid #ff3838;
+    width: 7%;
+    position: absolute;
+    top: 44%;
+    margin-top: -11px;
+    left: 528px;
+}
+
+.colum {
+    width: 15%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 165px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.grid img {
+    width: 18px;
+    margin-left: 110px;
+    margin-right: 25px;
+}
+
+/* CARD */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.card {
+    width: 325px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+    font-size: 17px;
+}
+
+.card-content h5 {
+    color: #7b7b7b;
+}
+
+.card-content span.text-block {
+    display: inline-block;
+    bottom: 20px;
+    border-radius: 2px;
+    background-color: rgb(82, 199, 105);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-content p {
+    padding-top: 20px;
+}
+
+.card-des {
+    align-items: center;
+    padding-top: 45px;
+    display: flex;
+    font-size: 15px;
+}
+
+.card-des img {
+    width: 23px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.card-des .stack {
+    display: flex;
+    margin-left: 0px;
+}
+
+.card-des .time {
+    display: flex;
+    margin-left: 55px;
+}
+
+.card-des span {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+/* PLUS */
+
+.plus img {
+    width: 40px;
+    margin-left: 72rem;
+    margin-bottom: 10px;
+}
